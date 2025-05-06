@@ -1,29 +1,31 @@
-# AI server for final project "קסם של סיפור"
-## how to run 
-1. clone this repo 
- ```bash
-git clone https://github.com/YamHorin/childrenBook.git
-```
+# 🌟 Magic of Story - AI Children's Book Generator
 
-2. run pip install to install all the libraries needed
- ```bash
-pip install -r requirements.txt
-```
-3. recommended to make virtual environment to run the code from here , to activate the evironment:
- ```bash
-cd .venv
-cd scripts
-./activate
-cd ..
-```
-4. run app.py file 
- ```bash
-python app.py
-```
+**Magic of Story** is a Python Flask-based API that allows you to automatically generate children's stories with AI-generated text and illustrations. Using Google's Gemini for text and Stable Diffusion for images, this project creates full storybooks — one API call at a time.
 
-## docker
-* you can run the enviroment with docker 
-* to install the docker use the docker file 
+---
 
+## 📌 Features
 
+- ✅ Generate story text with Google Gemini
+- ✅ Create detailed AI-generated illustrations using Stable Diffusion
+- ✅ Automatically generate full children’s stories: title, author, description, pages with text and images
+- ✅ Clean JSON API structure, ready for integration with web or mobile apps
 
+---
+
+## 🚀 Installation
+
+### Prerequisites
+
+- Python 3.10+
+- A Google Generative AI API Key (`gemini`)
+- Installed PyTorch (CPU or GPU)
+- `diffusers`, `Flask`, `dotenv`, and `Pillow` libraries
+
+### Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/magic-of-story.git
+cd magic-of-story
